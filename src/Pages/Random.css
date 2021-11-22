@@ -1,0 +1,22 @@
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .random-img{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+  }
+  
+  button{
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
