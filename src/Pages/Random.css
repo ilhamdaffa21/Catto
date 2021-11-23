@@ -3,6 +3,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
   }
   
   .random-img{
@@ -19,4 +23,12 @@
   
   button {
     margin-top: 20px;
+  }
+
+  @media screen and (max-width: 400px) {
+    .random-img{
+      object-fit: cover;
+      width: 300px;
+      height: 300px;
+    }
   }
