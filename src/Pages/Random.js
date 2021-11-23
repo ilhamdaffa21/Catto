@@ -33,7 +33,7 @@ function Random(){
   }
 
   return(
-    <div className = "app">
+    <div className = "random-content">
       <img className = "random-img" src= {catUrl} alt=""/>
       <button onClick={getCat}>Get Random Cat Image</button>
     </div>
